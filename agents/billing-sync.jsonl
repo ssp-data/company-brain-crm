@@ -1,0 +1,4 @@
+{"type": "Deal", "data": {"id": "deal-alpenkraft-poc", "slug": "deal-alpenkraft-poc", "name": "Alpenkraft smart-meter PoC", "kind": "consulting", "stage": "won", "value_usd": 60000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-19T07:10:00Z"}}
+{"type": "Interaction", "data": {"id": "int-2026-08-19-alpenkraft", "slug": "int-2026-08-19-alpenkraft", "kind": "note", "date": "2026-08-19", "summary": "Signed PO received in billing system — PoC starts September.", "createdAt": "2026-08-19T07:10:00Z", "updatedAt": "2026-08-19T07:10:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-08-19-alpenkraft", "to": "com-alpenkraft", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-08-19-alpenkraft", "to": "per-kenji-mori", "data": {}}

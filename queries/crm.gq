@@ -1,0 +1,92 @@
+// SSP Data CRM — the "views". In Obsidian these were plugin views (table,
+// kanban); here each is a stored, typed, lintable query anyone — colleague,
+// notebook, or agent — invokes by name.
+
+// The whole team: everyone who WorksAt SSP Data. Same query at 5 or 50 people.
+query team() {
+    match {
+        $p: Person
+        $p worksAt $ssp
+        $ssp: Company { slug: "com-ssp" }
+    }
+    return { $p.slug, $p.name, $p.role, $p.email }
+    order { $p.name }
+}
+
+// The sales funnel — the kanban board as a query. Group by $d.stage in
+// whatever renders this (terminal, notebook, agent).
+query sales_funnel() {
+    match {
+        $d: Deal
+        $d dealWith $c
+    }
+    return { $d.stage, $d.name, $c.name, $d.kind, $d.value_usd }
+    order { $d.stage, $d.name }
+}
+
+// One employee's pipeline — "what am I chasing?".
+query my_pipeline($slug: String) {
+    match {
+        $p: Person { slug: $slug }
+        $d: Deal
+        $d ownedBy $p
+        $d dealWith $c
+    }
+    return { $d.name, $d.stage, $c.name, $d.value_usd }
+    order { $d.stage }
+}
+
+// Everything that ever happened with one company — the `## Log` section,
+// but across all 50 employees' interactions, not just mine.
+query company_log($slug: String) {
+    match {
+        $c: Company { slug: $slug }
+        $i: Interaction
+        $i interactionWith $c
+    }
+    return { $i.date, $i.kind, $i.summary }
+    order { $i.date }
+}
+
+// All open prospects with their temperature — the follow-up view.
+query prospects() {
+    match {
+        $c: Company { kind: "prospect" }
+    }
+    return { $c.name, $c.hotness, $c.segment, $c.notes }
+    order { $c.hotness, $c.name }
+}
+
+// Only the hot ones — who to call today.
+query hot_prospects() {
+    match {
+        $c: Company { kind: "prospect", hotness: "hot" }
+    }
+    return { $c.name, $c.segment, $c.notes }
+    order { $c.name }
+}
+
+// Warm-intro path: which SSP teammate knows someone at the target company?
+// The query my Obsidian backlinks could never answer across 50 people.
+query warm_intro($slug: String) {
+    match {
+        $target: Company { slug: $slug }
+        $contact: Person
+        $contact worksAt $target
+        $teammate: Person
+        $teammate knows $contact
+        $teammate worksAt $ssp
+        $ssp: Company { slug: "com-ssp" }
+    }
+    return { $teammate.name, $contact.name, $contact.role, $target.name }
+    order { $teammate.name }
+}
+
+// Current clients — where revenue lives.
+query clients() {
+    match {
+        $c: Company { kind: "client" }
+    }
+    return { $c.name, $c.segment, $c.hq, $c.notes }
+    order { $c.name }
+}

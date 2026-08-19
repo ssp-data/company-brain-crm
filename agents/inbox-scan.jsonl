@@ -1,0 +1,8 @@
+{"type": "Interaction", "data": {"id": "int-2026-08-19-vectorhut", "slug": "int-2026-08-19-vectorhut", "kind": "email", "date": "2026-08-19", "summary": "Dana Cohen replied: wants a call this week about the deep-dive.", "createdAt": "2026-08-19T07:05:00Z", "updatedAt": "2026-08-19T07:05:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-08-19-vectorhut", "to": "com-vectorhut", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-08-19-vectorhut", "to": "per-nina-petrova", "data": {}}
+{"type": "Company", "data": {"id": "com-vectorhut", "slug": "com-vectorhut", "name": "VectorHut", "kind": "prospect", "hotness": "hot", "segment": "vector-db", "hq": "Remote", "notes": "DevRel lead replied 2026-08-19 — wants a call this week.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-19T07:05:00Z"}}
+{"type": "Company", "data": {"id": "com-quantflow", "slug": "com-quantflow", "name": "QuantFlow", "kind": "prospect", "hotness": "warm", "segment": "feature-store", "hq": "Remote", "notes": "Replied to the newsletter — interested in an article collab.", "createdAt": "2026-08-19T07:05:00Z", "updatedAt": "2026-08-19T07:05:00Z"}}
+{"type": "Interaction", "data": {"id": "int-2026-08-19-quantflow", "slug": "int-2026-08-19-quantflow", "kind": "email", "date": "2026-08-19", "summary": "Inbound: QuantFlow founder replied to newsletter, article interest.", "createdAt": "2026-08-19T07:05:00Z", "updatedAt": "2026-08-19T07:05:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-08-19-quantflow", "to": "com-quantflow", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-08-19-quantflow", "to": "per-david-oyelaran", "data": {}}

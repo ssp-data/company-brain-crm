@@ -1,0 +1,221 @@
+{"type": "Company", "data": {"id": "com-ssp", "slug": "com-ssp", "name": "SSP Data", "kind": "us", "segment": "data-engineering", "website": "https://ssp.sh", "hq": "Biel", "notes": "Us. 50 people: consulting + technical content for data companies.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Company", "data": {"id": "com-duckpond", "slug": "com-duckpond", "name": "DuckPond Analytics", "kind": "client", "segment": "analytics-db", "hq": "Amsterdam", "notes": "Writing retainer since March, 2 articles/month.", "hotness": "warm", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Company", "data": {"id": "com-tablewise", "slug": "com-tablewise", "name": "TableWise", "kind": "client", "segment": "lakehouse", "hq": "Berlin", "notes": "Retainer client, wants a benchmark series next.", "hotness": "warm", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Company", "data": {"id": "com-helvetia", "slug": "com-helvetia", "name": "Helvetia Retail Group", "kind": "client", "segment": "retail", "hq": "Zürich", "notes": "Consulting: lakehouse migration, phase 2 scoping.", "hotness": "hot", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Company", "data": {"id": "com-orchestron", "slug": "com-orchestron", "name": "Orchestron", "kind": "prospect", "segment": "orchestration", "hq": "Paris", "notes": "Proposal sent for a 6-article launch series.", "hotness": "hot", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Company", "data": {"id": "com-alpenkraft", "slug": "com-alpenkraft", "name": "Alpenkraft Energie AG", "kind": "prospect", "segment": "energy", "hq": "Bern", "notes": "Consulting PoC proposal out — smart-meter pipeline.", "hotness": "hot", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Company", "data": {"id": "com-vectorhut", "slug": "com-vectorhut", "name": "VectorHut", "kind": "prospect", "segment": "vector-db", "hq": "Remote", "notes": "DevRel lead liked the RAG article, wants a call.", "hotness": "warm", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Company", "data": {"id": "com-nordbahn", "slug": "com-nordbahn", "name": "Nordbahn Logistik", "kind": "prospect", "segment": "logistics", "hq": "Hamburg", "notes": "Met at Data Council; needs a DWH modernization.", "hotness": "warm", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Company", "data": {"id": "com-lakecraft", "slug": "com-lakecraft", "name": "LakeCraft", "kind": "prospect", "segment": "lakehouse", "hq": "Remote", "notes": "Two outreach mails, no reply yet.", "hotness": "cold", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Company", "data": {"id": "com-streamsense", "slug": "com-streamsense", "name": "StreamSense", "kind": "prospect", "segment": "streaming", "hq": "London", "notes": "Lost the workshop deal to an in-house hire.", "hotness": "cold", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Company", "data": {"id": "com-datawelt", "slug": "com-datawelt", "name": "DataWelt Verlag", "kind": "publisher", "segment": "media", "hq": "München", "notes": "Cross-publishing partner for German pieces.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"type": "Person", "data": {"id": "per-simu", "slug": "per-simu", "name": "Simon Späti", "role": "Founder & CEO", "email": "simu@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-simu", "to": "com-ssp", "data": {"role": "Founder & CEO"}}
+{"type": "Person", "data": {"id": "per-anna-keller", "slug": "per-anna-keller", "name": "Anna Keller", "role": "COO", "email": "anna.keller@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-anna-keller", "to": "com-ssp", "data": {"role": "COO"}}
+{"type": "Person", "data": {"id": "per-marco-bianchi", "slug": "per-marco-bianchi", "name": "Marco Bianchi", "role": "Head of Consulting", "email": "marco.bianchi@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-marco-bianchi", "to": "com-ssp", "data": {"role": "Head of Consulting"}}
+{"type": "Person", "data": {"id": "per-lea-brunner", "slug": "per-lea-brunner", "name": "Lea Brunner", "role": "Head of Content", "email": "lea.brunner@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-lea-brunner", "to": "com-ssp", "data": {"role": "Head of Content"}}
+{"type": "Person", "data": {"id": "per-david-oyelaran", "slug": "per-david-oyelaran", "name": "David Oyelaran", "role": "Head of Growth", "email": "david.oyelaran@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-david-oyelaran", "to": "com-ssp", "data": {"role": "Head of Growth"}}
+{"type": "Person", "data": {"id": "per-julia-steiner", "slug": "per-julia-steiner", "name": "Julia Steiner", "role": "Account Executive", "email": "julia.steiner@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-julia-steiner", "to": "com-ssp", "data": {"role": "Account Executive"}}
+{"type": "Person", "data": {"id": "per-tom-vermeer", "slug": "per-tom-vermeer", "name": "Tom Vermeer", "role": "Account Executive", "email": "tom.vermeer@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-tom-vermeer", "to": "com-ssp", "data": {"role": "Account Executive"}}
+{"type": "Person", "data": {"id": "per-nina-petrova", "slug": "per-nina-petrova", "name": "Nina Petrova", "role": "Account Executive", "email": "nina.petrova@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-nina-petrova", "to": "com-ssp", "data": {"role": "Account Executive"}}
+{"type": "Person", "data": {"id": "per-kenji-mori", "slug": "per-kenji-mori", "name": "Kenji Mori", "role": "Account Executive", "email": "kenji.mori@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-kenji-mori", "to": "com-ssp", "data": {"role": "Account Executive"}}
+{"type": "Person", "data": {"id": "per-sara-lindqvist", "slug": "per-sara-lindqvist", "name": "Sara Lindqvist", "role": "Account Executive", "email": "sara.lindqvist@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-sara-lindqvist", "to": "com-ssp", "data": {"role": "Account Executive"}}
+{"type": "Person", "data": {"id": "per-omar-haddad", "slug": "per-omar-haddad", "name": "Omar Haddad", "role": "Account Executive", "email": "omar.haddad@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-omar-haddad", "to": "com-ssp", "data": {"role": "Account Executive"}}
+{"type": "Person", "data": {"id": "per-elena-meier", "slug": "per-elena-meier", "name": "Elena Meier", "role": "Data Engineer", "email": "elena.meier@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-elena-meier", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-jonas-rossi", "slug": "per-jonas-rossi", "name": "Jonas Rossi", "role": "Data Engineer", "email": "jonas.rossi@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-jonas-rossi", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-priya-nair", "slug": "per-priya-nair", "name": "Priya Nair", "role": "Data Engineer", "email": "priya.nair@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-priya-nair", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-lukas-weber", "slug": "per-lukas-weber", "name": "Lukas Weber", "role": "Data Engineer", "email": "lukas.weber@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-lukas-weber", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-aisha-diallo", "slug": "per-aisha-diallo", "name": "Aisha Diallo", "role": "Data Engineer", "email": "aisha.diallo@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-aisha-diallo", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-felix-graf", "slug": "per-felix-graf", "name": "Felix Graf", "role": "Data Engineer", "email": "felix.graf@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-felix-graf", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-mara-kova", "slug": "per-mara-kova", "name": "Mara Kova", "role": "Data Engineer", "email": "mara.kova@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-mara-kova", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-diego-silva", "slug": "per-diego-silva", "name": "Diego Silva", "role": "Data Engineer", "email": "diego.silva@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-diego-silva", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-ingrid-berg", "slug": "per-ingrid-berg", "name": "Ingrid Berg", "role": "Data Engineer", "email": "ingrid.berg@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-ingrid-berg", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-pavel-novak", "slug": "per-pavel-novak", "name": "Pavel Novak", "role": "Data Engineer", "email": "pavel.novak@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-pavel-novak", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-chloe-dubois", "slug": "per-chloe-dubois", "name": "Chloe Dubois", "role": "Data Engineer", "email": "chloe.dubois@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-chloe-dubois", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-stefan-frei", "slug": "per-stefan-frei", "name": "Stefan Frei", "role": "Data Engineer", "email": "stefan.frei@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-stefan-frei", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-yuki-tanaka", "slug": "per-yuki-tanaka", "name": "Yuki Tanaka", "role": "Data Engineer", "email": "yuki.tanaka@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-yuki-tanaka", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-bram-visser", "slug": "per-bram-visser", "name": "Bram Visser", "role": "Data Engineer", "email": "bram.visser@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-bram-visser", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-sofia-marino", "slug": "per-sofia-marino", "name": "Sofia Marino", "role": "Data Engineer", "email": "sofia.marino@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-sofia-marino", "to": "com-ssp", "data": {"role": "Data Engineer"}}
+{"type": "Person", "data": {"id": "per-timo-lang", "slug": "per-timo-lang", "name": "Timo Lang", "role": "Technical Writer", "email": "timo.lang@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-timo-lang", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-amara-okafor", "slug": "per-amara-okafor", "name": "Amara Okafor", "role": "Technical Writer", "email": "amara.okafor@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-amara-okafor", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-nils-holm", "slug": "per-nils-holm", "name": "Nils Holm", "role": "Technical Writer", "email": "nils.holm@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-nils-holm", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-rosa-vidal", "slug": "per-rosa-vidal", "name": "Rosa Vidal", "role": "Technical Writer", "email": "rosa.vidal@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-rosa-vidal", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-viktor-petrov", "slug": "per-viktor-petrov", "name": "Viktor Petrov", "role": "Technical Writer", "email": "viktor.petrov@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-viktor-petrov", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-hana-sato", "slug": "per-hana-sato", "name": "Hana Sato", "role": "Technical Writer", "email": "hana.sato@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-hana-sato", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-cedric-blanc", "slug": "per-cedric-blanc", "name": "Cedric Blanc", "role": "Technical Writer", "email": "cedric.blanc@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-cedric-blanc", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-leila-amiri", "slug": "per-leila-amiri", "name": "Leila Amiri", "role": "Technical Writer", "email": "leila.amiri@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-leila-amiri", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-matteo-conti", "slug": "per-matteo-conti", "name": "Matteo Conti", "role": "Technical Writer", "email": "matteo.conti@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-matteo-conti", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-freya-dahl", "slug": "per-freya-dahl", "name": "Freya Dahl", "role": "Technical Writer", "email": "freya.dahl@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-freya-dahl", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-owen-reyes", "slug": "per-owen-reyes", "name": "Owen Reyes", "role": "Technical Writer", "email": "owen.reyes@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-owen-reyes", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-zara-khan", "slug": "per-zara-khan", "name": "Zara Khan", "role": "Technical Writer", "email": "zara.khan@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-zara-khan", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-ivan-orlov", "slug": "per-ivan-orlov", "name": "Ivan Orlov", "role": "Technical Writer", "email": "ivan.orlov@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-ivan-orlov", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-noemi-baumann", "slug": "per-noemi-baumann", "name": "Noemi Baumann", "role": "Technical Writer", "email": "noemi.baumann@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-noemi-baumann", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-karl-fischer", "slug": "per-karl-fischer", "name": "Karl Fischer", "role": "Technical Writer", "email": "karl.fischer@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-karl-fischer", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-tara-nolan", "slug": "per-tara-nolan", "name": "Tara Nolan", "role": "Technical Writer", "email": "tara.nolan@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-tara-nolan", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-emil-berger", "slug": "per-emil-berger", "name": "Emil Berger", "role": "Technical Writer", "email": "emil.berger@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-emil-berger", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-lina-vogel", "slug": "per-lina-vogel", "name": "Lina Vogel", "role": "Technical Writer", "email": "lina.vogel@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-lina-vogel", "to": "com-ssp", "data": {"role": "Technical Writer"}}
+{"type": "Person", "data": {"id": "per-ravi-iyer", "slug": "per-ravi-iyer", "name": "Ravi Iyer", "role": "Designer", "email": "ravi.iyer@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-ravi-iyer", "to": "com-ssp", "data": {"role": "Designer"}}
+{"type": "Person", "data": {"id": "per-greta-lindt", "slug": "per-greta-lindt", "name": "Greta Lindt", "role": "Editor", "email": "greta.lindt@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-greta-lindt", "to": "com-ssp", "data": {"role": "Editor"}}
+{"type": "Person", "data": {"id": "per-hugo-perez", "slug": "per-hugo-perez", "name": "Hugo Perez", "role": "Finance", "email": "hugo.perez@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-hugo-perez", "to": "com-ssp", "data": {"role": "Finance"}}
+{"type": "Person", "data": {"id": "per-aline-roth", "slug": "per-aline-roth", "name": "Aline Roth", "role": "People Ops", "email": "aline.roth@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-aline-roth", "to": "com-ssp", "data": {"role": "People Ops"}}
+{"type": "Person", "data": {"id": "per-dario-greco", "slug": "per-dario-greco", "name": "Dario Greco", "role": "SRE", "email": "dario.greco@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-dario-greco", "to": "com-ssp", "data": {"role": "SRE"}}
+{"type": "Person", "data": {"id": "per-petra-simek", "slug": "per-petra-simek", "name": "Petra Simek", "role": "Analyst", "email": "petra.simek@ssp.sh", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-petra-simek", "to": "com-ssp", "data": {"role": "Analyst"}}
+{"edge": "FounderOf", "from": "per-simu", "to": "com-ssp", "data": {}}
+{"type": "Person", "data": {"id": "per-mila-jansen", "slug": "per-mila-jansen", "name": "Mila Jansen", "role": "Head of DevRel", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-mila-jansen", "to": "com-duckpond", "data": {"role": "Head of DevRel"}}
+{"type": "Person", "data": {"id": "per-jon-krause", "slug": "per-jon-krause", "name": "Jon Krause", "role": "CMO", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-jon-krause", "to": "com-tablewise", "data": {"role": "CMO"}}
+{"type": "Person", "data": {"id": "per-beat-huber", "slug": "per-beat-huber", "name": "Beat Huber", "role": "Head of Data", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-beat-huber", "to": "com-helvetia", "data": {"role": "Head of Data"}}
+{"type": "Person", "data": {"id": "per-claire-fontaine", "slug": "per-claire-fontaine", "name": "Claire Fontaine", "role": "CTO", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-claire-fontaine", "to": "com-orchestron", "data": {"role": "CTO"}}
+{"type": "Person", "data": {"id": "per-reto-gasser", "slug": "per-reto-gasser", "name": "Reto Gasser", "role": "CIO", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-reto-gasser", "to": "com-alpenkraft", "data": {"role": "CIO"}}
+{"type": "Person", "data": {"id": "per-dana-cohen", "slug": "per-dana-cohen", "name": "Dana Cohen", "role": "DevRel Lead", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-dana-cohen", "to": "com-vectorhut", "data": {"role": "DevRel Lead"}}
+{"type": "Person", "data": {"id": "per-lars-petersen", "slug": "per-lars-petersen", "name": "Lars Petersen", "role": "Head of BI", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-lars-petersen", "to": "com-nordbahn", "data": {"role": "Head of BI"}}
+{"type": "Person", "data": {"id": "per-amy-wu", "slug": "per-amy-wu", "name": "Amy Wu", "role": "Founder", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-amy-wu", "to": "com-lakecraft", "data": {"role": "Founder"}}
+{"type": "Person", "data": {"id": "per-george-hall", "slug": "per-george-hall", "name": "George Hall", "role": "VP Engineering", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-george-hall", "to": "com-streamsense", "data": {"role": "VP Engineering"}}
+{"type": "Person", "data": {"id": "per-eva-brandt", "slug": "per-eva-brandt", "name": "Eva Brandt", "role": "Editor in Chief", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "WorksAt", "from": "per-eva-brandt", "to": "com-datawelt", "data": {"role": "Editor in Chief"}}
+{"edge": "Knows", "from": "per-simu", "to": "per-mila-jansen", "data": {"context": "met at Small Data SF"}}
+{"edge": "Knows", "from": "per-simu", "to": "per-eva-brandt", "data": {"context": "long-time editor contact"}}
+{"edge": "Knows", "from": "per-lea-brunner", "to": "per-jon-krause", "data": {"context": "ex-colleague"}}
+{"edge": "Knows", "from": "per-marco-bianchi", "to": "per-beat-huber", "data": {"context": "former project together"}}
+{"edge": "Knows", "from": "per-julia-steiner", "to": "per-claire-fontaine", "data": {"context": "intro at Data Council"}}
+{"edge": "Knows", "from": "per-tom-vermeer", "to": "per-lars-petersen", "data": {"context": "met at Data Council booth"}}
+{"edge": "Knows", "from": "per-nina-petrova", "to": "per-dana-cohen", "data": {"context": "podcast guest swap"}}
+{"edge": "Knows", "from": "per-kenji-mori", "to": "per-reto-gasser", "data": {"context": "alumni network"}}
+{"type": "Deal", "data": {"id": "deal-duckpond-retainer", "slug": "deal-duckpond-retainer", "name": "DuckPond writing retainer 2026", "kind": "writing-retainer", "stage": "won", "value_usd": 96000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-duckpond-retainer", "to": "com-duckpond", "data": {}}
+{"edge": "OwnedBy", "from": "deal-duckpond-retainer", "to": "per-lea-brunner", "data": {}}
+{"type": "Deal", "data": {"id": "deal-tablewise-retainer", "slug": "deal-tablewise-retainer", "name": "TableWise retainer renewal", "kind": "writing-retainer", "stage": "won", "value_usd": 84000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-tablewise-retainer", "to": "com-tablewise", "data": {}}
+{"edge": "OwnedBy", "from": "deal-tablewise-retainer", "to": "per-lea-brunner", "data": {}}
+{"type": "Deal", "data": {"id": "deal-helvetia-migration", "slug": "deal-helvetia-migration", "name": "Helvetia lakehouse migration", "kind": "consulting", "stage": "won", "value_usd": 240000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-helvetia-migration", "to": "com-helvetia", "data": {}}
+{"edge": "OwnedBy", "from": "deal-helvetia-migration", "to": "per-marco-bianchi", "data": {}}
+{"type": "Deal", "data": {"id": "deal-orchestron-series", "slug": "deal-orchestron-series", "name": "Orchestron launch article series", "kind": "article", "stage": "proposal", "value_usd": 30000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-orchestron-series", "to": "com-orchestron", "data": {}}
+{"edge": "OwnedBy", "from": "deal-orchestron-series", "to": "per-julia-steiner", "data": {}}
+{"type": "Deal", "data": {"id": "deal-alpenkraft-poc", "slug": "deal-alpenkraft-poc", "name": "Alpenkraft smart-meter PoC", "kind": "consulting", "stage": "proposal", "value_usd": 60000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-alpenkraft-poc", "to": "com-alpenkraft", "data": {}}
+{"edge": "OwnedBy", "from": "deal-alpenkraft-poc", "to": "per-kenji-mori", "data": {}}
+{"type": "Deal", "data": {"id": "deal-vectorhut-article", "slug": "deal-vectorhut-article", "name": "VectorHut RAG deep-dive", "kind": "article", "stage": "contacted", "value_usd": 6000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-vectorhut-article", "to": "com-vectorhut", "data": {}}
+{"edge": "OwnedBy", "from": "deal-vectorhut-article", "to": "per-nina-petrova", "data": {}}
+{"type": "Deal", "data": {"id": "deal-nordbahn-dwh", "slug": "deal-nordbahn-dwh", "name": "Nordbahn DWH modernization", "kind": "consulting", "stage": "contacted", "value_usd": 180000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-nordbahn-dwh", "to": "com-nordbahn", "data": {}}
+{"edge": "OwnedBy", "from": "deal-nordbahn-dwh", "to": "per-tom-vermeer", "data": {}}
+{"type": "Deal", "data": {"id": "deal-datawelt-column", "slug": "deal-datawelt-column", "name": "DataWelt monthly column", "kind": "article", "stage": "contacted", "value_usd": 12000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-datawelt-column", "to": "com-datawelt", "data": {}}
+{"edge": "OwnedBy", "from": "deal-datawelt-column", "to": "per-lea-brunner", "data": {}}
+{"type": "Deal", "data": {"id": "deal-lakecraft-intro", "slug": "deal-lakecraft-intro", "name": "LakeCraft first article", "kind": "article", "stage": "lead", "value_usd": 6000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-lakecraft-intro", "to": "com-lakecraft", "data": {}}
+{"edge": "OwnedBy", "from": "deal-lakecraft-intro", "to": "per-sara-lindqvist", "data": {}}
+{"type": "Deal", "data": {"id": "deal-helvetia-phase2", "slug": "deal-helvetia-phase2", "name": "Helvetia phase 2 (governance)", "kind": "consulting", "stage": "lead", "value_usd": 150000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-helvetia-phase2", "to": "com-helvetia", "data": {}}
+{"edge": "OwnedBy", "from": "deal-helvetia-phase2", "to": "per-marco-bianchi", "data": {}}
+{"type": "Deal", "data": {"id": "deal-vectorhut-workshop", "slug": "deal-vectorhut-workshop", "name": "VectorHut team workshop", "kind": "workshop", "stage": "lead", "value_usd": 15000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-vectorhut-workshop", "to": "com-vectorhut", "data": {}}
+{"edge": "OwnedBy", "from": "deal-vectorhut-workshop", "to": "per-omar-haddad", "data": {}}
+{"type": "Deal", "data": {"id": "deal-streamsense-ws", "slug": "deal-streamsense-ws", "name": "StreamSense Kafka workshop", "kind": "workshop", "stage": "lost", "value_usd": 18000.0, "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "DealWith", "from": "deal-streamsense-ws", "to": "com-streamsense", "data": {}}
+{"edge": "OwnedBy", "from": "deal-streamsense-ws", "to": "per-omar-haddad", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-03-03-duckpond", "slug": "int-2026-03-03-duckpond", "kind": "meeting", "date": "2026-03-03", "summary": "Kickoff DuckPond retainer — topics for Q2 agreed.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-03-03-duckpond", "to": "com-duckpond", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-03-03-duckpond", "to": "per-lea-brunner", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-04-14-tablewise", "slug": "int-2026-04-14-tablewise", "kind": "call", "date": "2026-04-14", "summary": "TableWise renewal call — happy, wants benchmarks.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-04-14-tablewise", "to": "com-tablewise", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-04-14-tablewise", "to": "per-lea-brunner", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-05-06-helvetia", "slug": "int-2026-05-06-helvetia", "kind": "meeting", "date": "2026-05-06", "summary": "Helvetia steering meeting — phase 1 on track.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-05-06-helvetia", "to": "com-helvetia", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-05-06-helvetia", "to": "per-marco-bianchi", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-05-20-orchestron", "slug": "int-2026-05-20-orchestron", "kind": "email", "date": "2026-05-20", "summary": "Orchestron CTO asked for a launch-series proposal.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-05-20-orchestron", "to": "com-orchestron", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-05-20-orchestron", "to": "per-julia-steiner", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-06-02-alpenkraft", "slug": "int-2026-06-02-alpenkraft", "kind": "call", "date": "2026-06-02", "summary": "Alpenkraft CIO call — PoC scope: smart-meter pipeline.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-06-02-alpenkraft", "to": "com-alpenkraft", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-06-02-alpenkraft", "to": "per-kenji-mori", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-06-11-orchestron", "slug": "int-2026-06-11-orchestron", "kind": "email", "date": "2026-06-11", "summary": "Sent proposal to Orchestron (6 articles, 3 months).", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-06-11-orchestron", "to": "com-orchestron", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-06-11-orchestron", "to": "per-julia-steiner", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-06-17-vectorhut", "slug": "int-2026-06-17-vectorhut", "kind": "note", "date": "2026-06-17", "summary": "VectorHut DevRel praised the RAG article on LinkedIn.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-06-17-vectorhut", "to": "com-vectorhut", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-06-17-vectorhut", "to": "per-nina-petrova", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-06-24-nordbahn", "slug": "int-2026-06-24-nordbahn", "kind": "meeting", "date": "2026-06-24", "summary": "Data Council: long chat with Nordbahn Head of BI.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-06-24-nordbahn", "to": "com-nordbahn", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-06-24-nordbahn", "to": "per-tom-vermeer", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-07-01-lakecraft", "slug": "int-2026-07-01-lakecraft", "kind": "email", "date": "2026-07-01", "summary": "LakeCraft outreach #1 — no reply.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-07-01-lakecraft", "to": "com-lakecraft", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-07-01-lakecraft", "to": "per-sara-lindqvist", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-07-08-streamsense", "slug": "int-2026-07-08-streamsense", "kind": "call", "date": "2026-07-08", "summary": "StreamSense: they hired in-house, workshop off.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-07-08-streamsense", "to": "com-streamsense", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-07-08-streamsense", "to": "per-omar-haddad", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-07-15-lakecraft", "slug": "int-2026-07-15-lakecraft", "kind": "email", "date": "2026-07-15", "summary": "LakeCraft outreach #2 — no reply.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-07-15-lakecraft", "to": "com-lakecraft", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-07-15-lakecraft", "to": "per-sara-lindqvist", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-07-22-datawelt", "slug": "int-2026-07-22-datawelt", "kind": "meeting", "date": "2026-07-22", "summary": "DataWelt: monthly German column discussed.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-07-22-datawelt", "to": "com-datawelt", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-07-22-datawelt", "to": "per-lea-brunner", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-07-29-alpenkraft", "slug": "int-2026-07-29-alpenkraft", "kind": "email", "date": "2026-07-29", "summary": "Alpenkraft procurement questions answered.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-07-29-alpenkraft", "to": "com-alpenkraft", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-07-29-alpenkraft", "to": "per-kenji-mori", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-08-05-helvetia", "slug": "int-2026-08-05-helvetia", "kind": "call", "date": "2026-08-05", "summary": "Helvetia wants phase 2 scoped by September.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-08-05-helvetia", "to": "com-helvetia", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-08-05-helvetia", "to": "per-marco-bianchi", "data": {}}
+{"type": "Interaction", "data": {"id": "int-2026-08-12-nordbahn", "slug": "int-2026-08-12-nordbahn", "kind": "email", "date": "2026-08-12", "summary": "Nordbahn sent their current DWH architecture doc.", "createdAt": "2026-08-01T00:00:00Z", "updatedAt": "2026-08-01T00:00:00Z"}}
+{"edge": "InteractionWith", "from": "int-2026-08-12-nordbahn", "to": "com-nordbahn", "data": {}}
+{"edge": "InteractionBy", "from": "int-2026-08-12-nordbahn", "to": "per-tom-vermeer", "data": {}}

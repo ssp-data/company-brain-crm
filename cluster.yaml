@@ -1,0 +1,10 @@
+version: 1
+metadata:
+  name: ssp-crm
+state:
+  backend: cluster
+  lock: true
+graphs:
+  crm:
+    schema: schema.pg
+    queries: queries/

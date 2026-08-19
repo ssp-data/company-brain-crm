@@ -1,0 +1,91 @@
+// SSP Data CRM — a company brain instead of CRM software.
+//
+// The whole CRM is three declarative files: this schema, queries/crm.gq (the
+// "views"), and seed.jsonl (the data). No database server — the graph is Lance
+// files under graphs/crm.omni, queried by DataFusion, coordinated by OmniGraph.
+//
+// 4 node types, 7 edge types. This is deliberately the Obsidian-CRM shape:
+// a note per company -> Company node; frontmatter (Hotness: 5-Cold) -> typed
+// enums; [[wikilinks]] -> typed edges; the ## Log section -> Interaction nodes.
+
+// A company we deal with — or SSP Data itself (kind=us). One node type covers
+// prospects, clients, publishers we write for, and partners; `kind` is the lens.
+node Company {
+    slug: String @key
+    name: String @index
+
+    // Relationship to us. `us` = SSP Data itself (exactly one node).
+    kind: enum(us, prospect, client, publisher, partner) @index
+
+    // The old Obsidian frontmatter `Hotness: 5-Cold`, now an enum the system
+    // enforces — an agent physically cannot write "5-Cold-ish".
+    hotness: enum(hot, warm, cold)? @index
+
+    segment: String?          // "orchestration", "lakehouse", "energy", ...
+    website: String?
+    hq: String?
+    notes: String?
+
+    createdAt: DateTime
+    updatedAt: DateTime
+}
+
+// A human — our own team AND external contacts. Who they are to us is not a
+// property; it's derived from edges (WorksAt com-ssp = team, WorksAt elsewhere
+// = contact at that company).
+node Person {
+    slug: String @key
+    name: String @index
+    email: String?
+    role: String?             // free-form title: "Head of Content", "CTO", ...
+
+    createdAt: DateTime
+    updatedAt: DateTime
+}
+
+// A piece of business we're chasing or won. `stage` IS the sales funnel — the
+// kanban board is just a query grouped by this enum.
+node Deal {
+    slug: String @key
+    name: String
+    kind: enum(consulting, writing-retainer, article, workshop) @index
+    stage: enum(lead, contacted, proposal, won, lost) @index
+    value_usd: F64?
+
+    createdAt: DateTime
+    updatedAt: DateTime
+}
+
+// One touchpoint — the `## Log` bullet from the Obsidian note, as a typed row.
+// Agents append these from inboxes, call transcripts, and the billing system.
+node Interaction {
+    slug: String @key
+    kind: enum(call, email, meeting, note) @index
+    date: Date @index
+    summary: String?
+
+    createdAt: DateTime
+    updatedAt: DateTime
+}
+
+// ── Edges — the [[wikilinks]], but with meaning ─────────────────────
+
+edge WorksAt: Person -> Company {
+    role: String?
+}
+
+// Team member knows an external contact — powers the warm-intro query.
+edge Knows: Person -> Person {
+    context: String?
+}
+
+edge FounderOf: Person -> Company
+
+edge DealWith: Deal -> Company
+
+// Which of our ~50 employees owns this deal.
+edge OwnedBy: Deal -> Person
+
+edge InteractionWith: Interaction -> Company
+
+edge InteractionBy: Interaction -> Person
